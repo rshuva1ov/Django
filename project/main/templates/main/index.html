@@ -2,7 +2,7 @@
 <div class="features">
   <h1>{{ title }}</h1>
   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste deleniti quibusdam at placeat, odit voluptatem! Amet, perspiciatis eligendi commodi rerum reiciendis sapiente sequi repellat itaque, blanditiis quae quis ut perferendis.</p>
-  <button class="btn btn-warning">На страницу про нас</button>
+  <a href="{% url 'about' %}" class="btn btn-warning">На страницу Про нас</a>
 
   {% for el in values %} {% if el == 'SOME' %} {% filter lower%}
   <p>{{ el }}</p>

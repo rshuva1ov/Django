@@ -9,7 +9,8 @@ aside {
   background-color: #181818;
   width: 20%;
   padding: 2.5%;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   color: #fff;
   border-right: 4px solid #4d4d4d;
 }
@@ -82,6 +83,11 @@ main .features p {
 form {
   width: 500px;
   margin: 50px auto;
+}
+
+.simplebar-content-wrapper {
+  height: 800px;
+  overflow: auto;
 }
 
 @media (min-width: 1200px) {
